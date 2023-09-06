@@ -1,31 +1,18 @@
 .container {
-    background-color: palevioletred;
+    background-color: white;
     height: 600px;
     width: 600px;
     position: fixed;
     left: 31%;
     top: 12%;
+    border: 2px solid gray;
+
 }
 
 .divid {
-    background-color: rgb(244, 143, 244);
+    background-color: white;
     height: 147px;
     width: 147px;
    display: inline-block;
 }
 
-#box5 {
-    background-color: aqua;
-}
-#box8 {
-    background-color: pink;
-}
-#box3 {
-    background-color: blue;
-}
-#box6 {
-    background-color: greenyellow;
-}
-#box14 {
-    background-color: green;
-}
