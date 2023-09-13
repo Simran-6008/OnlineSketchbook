@@ -1,18 +1,27 @@
 .container {
     background-color: white;
-    height: 600px;
-    width: 600px;
-    position: fixed;
-    left: 31%;
-    top: 12%;
+    max-height: 600px;
+    max-width: 600px;
+    margin: auto;
     border: 2px solid gray;
 
 }
 
-.divid {
+.cell {
     background-color: white;
     height: 147px;
     width: 147px;
    display: inline-block;
+}
+.clicked{
+    background-color: lightgray;
+}
+
+#heading{
+    font-family: Georgia;
+    font-size: 3em;
+}
+#body{
+    background-color: bisque;
 }
 

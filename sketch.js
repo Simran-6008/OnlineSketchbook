@@ -1,39 +1,50 @@
-// var divid = document.querySelector("#box1")
-// divid.style.backgroundColor = "black";
+// var cell = document.querySelector("#box1")
+// cell.style.backgroundColor = "black";
 
 
-// var divid = document.querySelector("#box16")
-// divid.style.backgroundColor = "red";
-//divid.innerHTML="<p>Hello</p>"
+// var cell = document.querySelector("#box16")
+// cell.style.backgroundColor = "red";
+//cell.innerHTML="<p>Hello</p>"
 
 
-var divid = document.querySelector("#box10")
-divid.style.backgroundColor = "white";
+// var cell = document.querySelector("#box10")
+// cell.style.backgroundColor = "white";
 
-var container = document.querySelector(".container");
-container.setAttribute("id", "box17");
-container.style.backgroundColor = "white";
-console.log(container.getAttribute("class"));
+// var container = document.querySelector(".container");
+// container.setAttribute("id", "box17");
+// container.style.backgroundColor = "white";
+// console.log(container.getAttribute("class"));
 
 // var newdiv = document.createElement("div");
-// newdiv.classList.add("divid");
+// newdiv.classList.add("cell");
 // newdiv.textContent="B";
 //newDiv.style.backgroundColor = "blue"
 // container.appendChild(newdiv);
 
-var totalnd = document.querySelectorAll(".divid");
+var totalnd = document.querySelectorAll(".cell");
 console.log(totalnd);
 
 //........................DOM EVENT...........................
-// divid.addEventListener("click", changeToBlack);
+// cell.addEventListener("click", changeToBlack);
 // function changeToBlack(){
-// divid.style.backgroundColor="black";
+// cell.style.backgroundColor="black";
 // }
 
 totalnd.forEach((div) => {
     div.addEventListener('click', () =>{
-        div.style.backgroundColor = "black";
+        div.classList.toggle("clicked");
     })
-})
+}) 
+
+// totalnd.forEach((div) => {
+//     div.addEventListener('mousedown', () =>{
+//         div.style.backgroundColor = "black";
+//     })
+// })
+
+
+
+
+
 
 
